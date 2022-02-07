@@ -13,6 +13,11 @@
 
 
 int options(void);
+float balanceenquiry(float Balance);
+float depositcash(float Balance);
+float withdrawcash(float Balance);
+int exit(void);
+int errormessage(void);
 
 
 
