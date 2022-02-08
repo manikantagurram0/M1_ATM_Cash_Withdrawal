@@ -13,7 +13,7 @@
 
 
 int options(void);
-float balanceenquiry(float Balance);
+float balance_enquiry(float Balance);
 float depositcash(float Balance);
 float withdrawcash(float Balance);
 int exit(void);
@@ -45,7 +45,7 @@ while(True)
           switch (opinion)
           {
               case 1:
-              balanceenquiry(Balance);
+              balance_enquiry(Balance);
               break;
 
               case 2:
