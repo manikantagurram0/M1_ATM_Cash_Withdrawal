@@ -10,7 +10,7 @@ int options()
     printf("                     < 3 > Withdraw Cash\n\n");
     printf("                     < 4 > Exit\n\n\n");
     printf("                                                        HelpLine Number\n");
-    return 0;
+    return 6;
 
 }
 
@@ -24,7 +24,9 @@ float balance_enquiry(float Balance)
 float depositcash(float Balance)
 {
     float deposit;
-    printf("                           *Enter money to be deposit:\n\n");
+    printf("                  *************Enter money to be deposit:");
+
+
     scanf("%f",&deposit);
 
     Balance += deposit;

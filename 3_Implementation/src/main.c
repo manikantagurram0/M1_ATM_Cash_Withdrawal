@@ -37,8 +37,8 @@ while(True)
 
      options();
 
-     printf("  select:\t");
-     scanf("%d\n",&opinion);
+     printf("  select a option:");
+     scanf("%d",&opinion);
 
 
 
@@ -46,14 +46,17 @@ while(True)
           {
               case 1:
               balance_enquiry(Balance);
+              return Balance;
               break;
 
               case 2:
               depositcash(Balance);
+              return Balance;
               break;
 
               case 3:
               withdrawcash(Balance);
+              return Balance;
               break;
 
               case 4:
@@ -66,10 +69,11 @@ while(True)
           }
 
 
+
           printf("************************************************************************************************\n\n");
-          printf("                                   Would you like to do another transaction");
-          printf("                                          &lt; < 1> Yes\n");
-          printf("                                          &lt; < 2> No\n");
+          printf("                                   Would you like to do another transaction\n\n");
+          printf("                                           < 1> Yes\n");
+          printf("                                           < 2> No\n");
           scanf("%d",&choose);
 
 
