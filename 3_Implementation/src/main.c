@@ -9,6 +9,7 @@
  * 
  */
 #include<stdio.h>
+#include<stdlib.h>
 #include"atmcash.h"
 
 
@@ -16,15 +17,24 @@ int options(void);
 float balance_enquiry(float Balance);
 float depositcash(float Balance);
 float withdrawcash(float Balance);
-int exit(void);
+int exitmenu(void);
 int errormessage(void);
+
+
 
 
 
 
 int main()
 {
-float Balance =25000.00;
+
+//FILE*money;
+
+float Balance =25000;
+/*money=fopen("./data.txt","rw");
+fscanf(money,"%f",Balance);
+fprintf(money,"%f",Balance);
+fclose(money);*/
 int opinion;
 int choose;
 
@@ -37,7 +47,7 @@ while(True)
 
      options();
 
-     printf("  select a option:");
+     printf("  select a option:\n\n");
      scanf("%d",&opinion);
 
 
@@ -46,28 +56,29 @@ while(True)
           {
               case 1:
               balance_enquiry(Balance);
-              return Balance;
+              
               break;
 
               case 2:
               depositcash(Balance);
-              return Balance;
+              
+              
               break;
 
               case 3:
               withdrawcash(Balance);
-              return Balance;
+              
+              
               break;
 
               case 4:
-              exit();
+              exitmenu();
               break;
 
               default:
               errormessage();
               break;
           }
-
 
 
           printf("************************************************************************************************\n\n");
@@ -80,12 +91,16 @@ while(True)
           if(choose==2)
           {
             True=0;
-            exit();
-          }
+            exitmenu();
+          } 
+
+
+
+         
 
 
 }
-          
+         
 
 }
 

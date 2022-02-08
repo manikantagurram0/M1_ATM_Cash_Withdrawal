@@ -61,7 +61,7 @@ float withdrawcash(float Balance)
     return Balance;
 
 }
-int exit()
+int exitmenu()
 {
     
     printf("                                       Thank you forusing our ATM            \n\n");
