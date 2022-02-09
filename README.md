@@ -1,5 +1,5 @@
 # M1_ATM_Cash_Withdrawal
-https://github.com/manikantagurram0/M1_ATM_Cash_Withdrawal/blob/main/0_Certificates/atm-machine-BCWP6C.jpg
+![atm-machine-BCWP6C](https://user-images.githubusercontent.com/98829237/153201612-cd2f0649-445e-400b-ad60-865478bc50ed.jpg)
 M1_ATM_Cash_Withdrawal is Utility project based on ATM money withdrawal which we uses in real time environment
 # Certificates
 
