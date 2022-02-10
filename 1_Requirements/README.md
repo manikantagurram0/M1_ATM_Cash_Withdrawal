@@ -6,64 +6,70 @@
 
   # 4W'S and 1H
    
-   # WHERE
+   ## WHERE
 
    * We can use this in any atm machine which linked with respective banks we know now a days every bank providing facility of   atm in every cities and town. 
 
-   # WHY
+   ## WHY
 
    * We are living in the banking world now a days people need security and time saving so, Atm is a best option for everyone to save time and efforts in this case it easy for people to go atm and do their own transaction without third person involvement.
 
-   # WHEN
+   ## WHEN
 
    * The basic advantage of atm machine is we can use any time in day 24/7 and 365 days we can get mini statements and receipts for every transaction.
 
-   # WHAT
+   ## WHAT
 
    *  ATM Cash Withdrawal is utility project this process it tells about the option which are we usually using in our daily life it has ability to deposit cash , withdraw cash and check the account balance.
 
-   # HOW
+   ## HOW
 
    * How can we make deposit and how can we make withdraw and check balance , it is easy  to deposit we can directy click on deposit option and add how much money you want to add then click on finish transaction same way we add money and we can check balance as well.
 
 
 # SWOT ANALYSIS
  
- # Strengths
+ ## Strengths
   
  * We can access it from anywhere.
  * it has more security.
  * we can use from outside of city.
  * It is available for 24/7.
   
- # Weaknesses
+ ## Weaknesses
    
  * Charges apply.
  * This code is for one  user.
  * no graphical interface.
    
- # Opportunities
+ ## Opportunities
   
  * By this bank has opportunities to gain more user.
  * Coustemer satisfaction.
  * heavy atm are needed.
 
- # Threats
+ ## Threats
   
  * ATM physical attacks are possible.
  * ATM frauds
   
+# High Level Requirements
+|HLR|     Description  |
+|------|  --------------|
+|HLR_1|   PIN - Correct PIN allows transactions
+|HLR_2|   Cash Dispenser - Dispenses cash.
+|HLR_3|   Printer - Receipt printed upon demand.
+|HLR_4|   ATM State - Defaults to idle upon completion of transactions.
+            
+# Low Level Requirements
+|LLR|     Description |
+|------|  ------------|
+|LLR_1|   Must be entered correctly within a certain number of attempts.
+|LLR_2|   Can be opened and refilled with cash.
+|LLR_3|   Can be opened and refilled with paper.
+|LLR_4|   Can be shut down and restarted.  
 
-# high level requirements
-
-  *User used to select option display on the screen
-
-
-# low level requirements
-
- *mantatory to click to exit after transaction completed
 
 
 
 
-**5W and 1 H
