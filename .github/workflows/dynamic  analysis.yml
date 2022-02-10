@@ -16,6 +16,6 @@ jobs:
     - name: install
       run: sudo apt-get install valgrind
     - name: dynamic analysis
-      run: valgrind ./3_Implementaion/obj/main.o
+      run: valgrind ./main.o
  
     
