@@ -15,3 +15,7 @@ M1_ATM_Cash_Withdrawal is Utility project based on ATM money withdrawal which we
 
 # Code quality
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/a8d10dc8501e49e883f4b773206dea49)](https://www.codacy.com/gh/manikantagurram0/M1_ATM_Cash_Withdrawal/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=manikantagurram0/M1_ATM_Cash_Withdrawal&amp;utm_campaign=Badge_Grade)
+# code quality in code inspector
+https://api.codiga.io/project/30933/status/svg
+
+https://api.codiga.io/project/30933/score/svg
