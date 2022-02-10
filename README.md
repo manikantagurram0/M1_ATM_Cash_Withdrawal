@@ -18,4 +18,4 @@ M1_ATM_Cash_Withdrawal is Utility project based on ATM money withdrawal which we
 # code quality in code inspector
 ![code inspector Badge](https://api.codiga.io/project/30933/status/svg)
 
-https://api.codiga.io/project/30933/score/svg
+[code quality score](https://api.codiga.io/project/30933/score/svg)
