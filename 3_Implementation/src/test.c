@@ -2,6 +2,7 @@
 #include"unity.h"
 
 
+
 void setUp()
 {
 
@@ -13,11 +14,12 @@ void tearDown()
 
 void test_depositcash(void)
 {
-    TEST_ASSERT_EQUAL(27000,depositcash(25000));
+    TEST_ASSERT_EQUAL(27000,deposit_cash(25000,2000));
 }
 void test_withdrawcash(void)
 {
-    TEST_ASSERT_EQUAL(2000,withdrawcash(25000));
+    TEST_ASSERT_EQUAL(5000,cash_withdraw(25000,20000));
+
 }
 void test_exitmenu(void)
 {
@@ -30,7 +32,7 @@ void test_balance_enquiry(void)
 
 
 
-int main()
+int main_test()
 {
     UNITY_BEGIN();
    RUN_TEST(test_balance_enquiry);

@@ -13,23 +13,15 @@
 #include"atmcash.h"
 
 
-int options(void);
-float balance_enquiry(float Balance);
-float depositcash(float Balance);
-float withdrawcash(float Balance);
-int exitmenu(void);
-int errormessage(void);
 
-
-
-
+extern int main_test();
 
 
 int main()
 {
 
 //FILE*money;
-
+main_test();
 float Balance =25000;
 /*money=fopen("./data.txt","rw");
 fscanf(money,"%f",Balance);
@@ -60,17 +52,28 @@ while(True)
               break;
 
               case 2:
-              depositcash(Balance);
+              {
+              float deposit;
+               printf("                  *************Enter money to be deposit:\n");
+
+
+              scanf("%f",&deposit);
+              deposit_cash(Balance ,deposit);
               
               
               break;
+              }
+              case 3:{
+              float Withdraw;
+              printf("                                      Enter a money to withdraw:\n\n");
+              scanf("%f",&Withdraw);
 
-              case 3:
-              withdrawcash(Balance);
-              
+             float rat=cash_withdraw(Balance, Withdraw);
+             
+              printf("%f your new balance",rat);
               
               break;
-
+              }
               case 4:
               exitmenu();
               break;

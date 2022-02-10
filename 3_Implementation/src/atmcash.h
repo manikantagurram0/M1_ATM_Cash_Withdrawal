@@ -14,8 +14,8 @@
 
 int options(void);
 float balance_enquiry(float Balance);
-float depositcash(float Balance);
-float withdrawcash(float Balance);
+float deposit_cash(float Balance,float deposit);
+float cash_withdraw(float Balance,float Withdraw);
 int exitmenu(void);
 int errormessage(void);
 

@@ -21,13 +21,9 @@ float balance_enquiry(float Balance)
     return Balance;
 }
 
-float depositcash(float Balance)
+float deposit_cash(float Balance,float deposit)
 {
-    float deposit;
-    printf("                  *************Enter money to be deposit:");
-
-
-    scanf("%f",&deposit);
+    
 
     Balance += deposit;
     printf("                          Your money is successfully deposit\n\n");
@@ -38,12 +34,9 @@ float depositcash(float Balance)
 
 
 
-float withdrawcash(float Balance)
+float cash_withdraw(float Balance,float Withdraw)
 {
-    float Withdraw;
-    printf("                                      Enter a money to withdraw:\n\n");
-    scanf("%f",&Withdraw);
-
+   
  
     if(Balance>=Withdraw)
     {
