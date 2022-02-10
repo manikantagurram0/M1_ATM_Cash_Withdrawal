@@ -7,3 +7,6 @@ M1_ATM_Cash_Withdrawal is Utility project based on ATM money withdrawal which we
 
 * sololearn c language certificate
 * linux cisco certificate
+
+
+[![C/C++ CI](https://github.com/manikantagurram0/M1_ATM_Cash_Withdrawal/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/manikantagurram0/M1_ATM_Cash_Withdrawal/actions/workflows/c-cpp.yml)
