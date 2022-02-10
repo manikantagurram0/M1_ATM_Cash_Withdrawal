@@ -29,41 +29,47 @@
 
 # SWOT ANALYSIS
  
- # Strengths
+ ## Strengths
   
  * We can access it from anywhere.
  * it has more security.
  * we can use from outside of city.
  * It is available for 24/7.
   
- # Weaknesses
+ ## Weaknesses
    
  * Charges apply.
  * This code is for one  user.
  * no graphical interface.
    
- # Opportunities
+ ## Opportunities
   
  * By this bank has opportunities to gain more user.
  * Coustemer satisfaction.
  * heavy atm are needed.
 
- # Threats
+ ## Threats
   
  * ATM physical attacks are possible.
  * ATM frauds
   
+# High Level Requirements
+|HLR|     Description  |
+|------|  --------------|
+|HLR_1|   PIN - Correct PIN allows transactions
+|HLR_2|   Cash Dispenser - Dispenses cash.
+|HLR_3|   Printer - Receipt printed upon demand.
+|HLR_4|   ATM State - Defaults to idle upon completion of transactions.
+            
+# Low Level Requirements
+|LLR|     Description |
+|------|  ------------|
+|LLR_1|   Must be entered correctly within a certain number of attempts.
+|LLR_2|   Can be opened and refilled with cash.
+|LLR_3|   Can be opened and refilled with paper.
+|LLR_4|   Can be shut down and restarted.  
 
-# high level requirements
-
-  *User used to select option display on the screen
-
-
-# low level requirements
-
- *mantatory to click to exit after transaction completed
 
 
 
 
-**5W and 1 H
