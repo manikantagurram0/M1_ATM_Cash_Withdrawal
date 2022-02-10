@@ -15,7 +15,6 @@ jobs:
     - uses: actions/checkout@v2
     
     - name: make 
-      run: make 3_Implementation
-    - name: make check
-      run: make check 3_Implementation
+      run: make RUN -C 3_Implementation
+ 
     
