@@ -1,0 +1,21 @@
+name: dynamic analysis
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: install
+      run: sudo apt-get install valgrind
+    - name: dynamic analysis
+      run: valgrind ./3_Implementaion/obj/main.o
+ 
+    
