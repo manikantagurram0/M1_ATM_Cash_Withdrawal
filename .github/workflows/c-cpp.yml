@@ -17,5 +17,5 @@ jobs:
     - name: make 
       run: make 3_Implementation
     - name: make check
-      run: make check
+      run: make check 3_Implementation
     
