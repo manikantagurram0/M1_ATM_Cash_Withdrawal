@@ -51,23 +51,23 @@
  ## Threats
   
  * ATM physical attacks are possible.
- * ATM frauds
+ * ATM frauds and illegal things
   
 # High Level Requirements
 |HLR|     Description  |
 |------|  --------------|
-|HLR_1|   PIN - Correct PIN allows transactions
-|HLR_2|   Cash Dispenser - Dispenses cash.
-|HLR_3|   Printer - Receipt printed upon demand.
-|HLR_4|   ATM State - Defaults to idle upon completion of transactions.
+|HLR_1|   bank account needed.
+|HLR_2|   arm card needed.
+|HLR_3|   Receipt printed upon demand.
+|HLR_4|   Exit after transaction completed.
             
 # Low Level Requirements
 |LLR|     Description |
 |------|  ------------|
-|LLR_1|   Must be entered correctly within a certain number of attempts.
-|LLR_2|   Can be opened and refilled with cash.
-|LLR_3|   Can be opened and refilled with paper.
-|LLR_4|   Can be shut down and restarted.  
+|LLR_1|   limited attempts at each atm.
+|LLR_2|   maintain cash in atm
+|LLR_3|   collect cash and receipt
+|LLR_4|   correct pin enter
 
 
 
