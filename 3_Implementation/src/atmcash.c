@@ -1,3 +1,13 @@
+/**
+ * @file atmcash.c
+ * @author Gurram Manikanta
+ * @brief it have defination of all functions which are called in main function
+ * @version 0.1
+ * @date 2022-02-11
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
 #include <stdio.h>
 #include "atmcash.h"
 

@@ -1,7 +1,9 @@
 /**
  * @file main.c
  * @author your name Gurram Manikanta
- * @brief 
+ * @brief ATM Cash Withdrawal is utility project in which it defines user to how to withdraw money 
+ * from atm machine,In this process it tells about the option which are we usually using in our daily 
+ * life it has ability to deposit cash , withdraw cash and check the account balance.
  * @version 0.1
  * @date 2022-02-07
  * 

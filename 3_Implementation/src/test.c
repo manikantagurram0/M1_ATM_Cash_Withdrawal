@@ -1,3 +1,13 @@
+/**
+ * @file test.c
+ * @author Gurram Manikanta
+ * @brief testing of functions using some specified test cases for that i had created call to  TEST_ASSERT_EQUAL function to perform testcases of each function
+ * @version 0.1
+ * @date 2022-02-11
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
 #include"atmcash.h"
 #include"unity.h"
 

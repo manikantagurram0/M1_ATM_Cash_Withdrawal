@@ -1,7 +1,8 @@
 /**
  * @file atmcash.h
- * @author your name (you@domain.com)
- * @brief 
+ * @author Gurram Manikanta
+ * @brief it describe about functions which are declare in this file
+ *  and its implementation are declare on another file so i include this library to that library
  * @version 0.1
  * @date 2022-02-07
  * 
