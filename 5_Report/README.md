@@ -76,7 +76,7 @@
 
 ![cert-1089-24869255](https://user-images.githubusercontent.com/98829237/153547252-5df67100-b9c2-48e1-8127-f25821a09c0e.jpg)
 
-![Gurram_manikanta_github.pdf](https://github.com/manikantagurram0/M1_ATM_Cash_Withdrawal/files/8046371/Gurram_manikanta_github.pdf)
+[Gurram_manikanta_github.pdf](https://github.com/manikantagurram0/M1_ATM_Cash_Withdrawal/files/8046371/Gurram_manikanta_github.pdf)
 
 
 ## architecture
