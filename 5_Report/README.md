@@ -72,6 +72,10 @@
 
 
 
-# certificates
+##certificates
 
 ![cert-1089-24869255](https://user-images.githubusercontent.com/98829237/153547252-5df67100-b9c2-48e1-8127-f25821a09c0e.jpg)
+
+
+## architecture
+![IMG_20220211_113254](https://user-images.githubusercontent.com/98829237/153547365-0a9a7e6c-9bad-4ef5-9ce9-539f6c77afdb.jpg)
