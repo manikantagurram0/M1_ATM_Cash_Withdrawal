@@ -5,7 +5,7 @@
 
 
 | c/c++ |         Unit Testing  |       cpp check |  codacy code quality | code-inspector | code quality score |
-
+|-------|------------------------------------------------------------------------------------------------------|
 [![C/C++ CI](https://github.com/manikantagurram0/M1_ATM_Cash_Withdrawal/actions/workflows/Build.yml/badge.svg)](https://github.com/manikantagurram0/M1_ATM_Cash_Withdrawal/actions/workflows/Build.yml)
 [![Unit Testing](https://github.com/manikantagurram0/M1_ATM_Cash_Withdrawal/actions/workflows/unity.yml/badge.svg)](https://github.com/manikantagurram0/M1_ATM_Cash_Withdrawal/actions/workflows/unity.yml) 
 [![cppcheck](https://github.com/manikantagurram0/M1_ATM_Cash_Withdrawal/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/manikantagurram0/M1_ATM_Cash_Withdrawal/actions/workflows/cppcheck.yml)
