@@ -11,7 +11,16 @@
 
 
 
-
+## Folder Structure
+Folder                   | Description
+-------------------------| -----------------------------------------
+`0_Certificates`         | Certificates earned during the course
+`1_Requirements`         | Documents detailing requirements and research
+`2_Architecture`         | Behavioural and Structural UML Diagrams(Both High Level and Low Level)
+`3_Implemenatation `     | All code and documentation
+`4_Test plan and output `| Documents with test plans and procedures and Output
+`5_Report`               | Documentation of whole project
+`6_ImagesAndVideos`      | Code Execution Images and Videos
 
 
 M1_ATM_Cash_Withdrawal is Utility project based on ATM money withdrawal which we uses in real time environment
@@ -22,12 +31,7 @@ M1_ATM_Cash_Withdrawal is Utility project based on ATM money withdrawal which we
 
 
 
-# Static analysis
 
-
-# Code quality
-
-# code quality in code inspector
 
 
 
