@@ -84,7 +84,9 @@
 
 ![0001](https://user-images.githubusercontent.com/98829237/153548724-4146f634-73b4-4cdb-ba7d-28fc46307aed.jpg)
 
-## architecture
+## Architecture
+
+![uml](https://user-images.githubusercontent.com/98829237/153582104-3dcc26d2-1753-4ab4-8c05-ab7947615e98.png)
 ![IMG_20220211_113254](https://user-images.githubusercontent.com/98829237/153547365-0a9a7e6c-9bad-4ef5-9ce9-539f6c77afdb.jpg)
 
 
